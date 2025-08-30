@@ -2,11 +2,13 @@ body{
     background-color: rgb(222, 249, 250);
     font-family: 'Times New Roman', Times, serif
 }
+
+
 #encabezado{
     display: flex;
     font-style: oblique;
     border: solid 1px ;
-    width: 28%;
+    width: 45vmax;
     background-color: aliceblue;
 }
 .titulo1{
@@ -14,21 +16,28 @@ body{
     padding: 15px;
     text-align: center;
 }
+p {
+    font-size: 120%;
+    text-align: justify;
+}
 hr{
     width: 50%;
 }
 
 .contenedor{
+    padding: 0.5rem;
     border-radius:10px;
     background-color:white;
     border: 1px solid;
 }
 .fases{
+    display: flex;
+    padding: 0.2rem;
     color:rgb(4, 112, 175);
     border: solid 1px black;
     border-radius: 5px;
     background-color: white;
-    width: 4%;
+    width: 3em;
     font-size: 150%
 }
 #piedepagina{
@@ -36,7 +45,10 @@ hr{
     background-color: rgb(54, 54, 54);
     border-radius: 5px;
     text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 100%;
 }
 img{
-    width: 50px;
+    width: 20%;
 }
