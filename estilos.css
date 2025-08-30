@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(222, 249, 250);
+    font-family: 'Times New Roman', Times, serif
+}
+#encabezado{
+    display: flex;
+    font-style: oblique;
+    border: solid 1px ;
+    width: 28%;
+    background-color: aliceblue;
+}
+.titulo1{
+
+    padding: 15px;
+    text-align: center;
+}
+hr{
+    width: 50%;
+}
+
+.contenedor{
+    border-radius:10px;
+    background-color:white;
+    border: 1px solid;
+}
+.fases{
+    color:rgb(4, 112, 175);
+    border: solid 1px black;
+    border-radius: 5px;
+    background-color: white;
+    width: 4%;
+    font-size: 150%
+}
+#piedepagina{
+    color: rgb(255, 255, 255);
+    background-color: rgb(54, 54, 54);
+    border-radius: 5px;
+    text-align: center;
+}
+img{
+    width: 50px;
+}
